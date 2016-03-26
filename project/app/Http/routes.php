@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 /*
 |--------------------------------------------------------------------------
@@ -32,7 +32,7 @@ Route::group(['middleware' => ['web']], function () {
 
 
 
-
+Route::get('/', 'Controller@index');
 Route::get('elementary', 'Controller@elementary');
 Route::get('highschool', 'Controller@highSchool');
 

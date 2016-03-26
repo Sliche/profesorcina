@@ -18,7 +18,7 @@ class Controller extends BaseController
 
 
 
-        return view ('welcome');
+        return view ('home');
 
 
 

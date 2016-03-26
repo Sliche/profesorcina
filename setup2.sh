@@ -5,10 +5,10 @@ sudo apt-get install make mc curl git python-software-properties -y
 
 apt-get update
 apt-get install -y apache2
-if ! [ -L /var/www ]; then
-  rm -rf /var/www
-  ln -fs /vagrant /var/www
-fi
+# if ! [ -L /var/www ]; then
+#   rm -rf /var/www
+#   ln -fs /vagrant /var/www
+# fi
 
 
 
@@ -30,14 +30,14 @@ curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
 
-sudo rm -rf /var/www	
-sudo ln -fs /vagrant /var/www
+# sudo rm -rf /var/www	
+# sudo ln -fs /vagrant /var/www
 
 #phpMyAdmin
-wget http://optimate.dl.sourceforge.net/project/phpmyadmin/phpMyAdmin/4.0.9/phpMyAdmin-4.0.9-english.tar.gz
-tar -xzvf phpMyAdmin-4.0.9-english.tar.gz
-sudo mkdir /usr/share/phpmyadmin
-sudo mv phpMyAdmin-4.0.9-english/* /usr/share/phpmyadmin/
+# wget http://optimate.dl.sourceforge.net/project/phpmyadmin/phpMyAdmin/4.0.9/phpMyAdmin-4.0.9-english.tar.gz
+# tar -xzvf phpMyAdmin-4.0.9-english.tar.gz
+# sudo mkdir /usr/share/phpmyadmin
+# sudo mv phpMyAdmin-4.0.9-english/* /usr/share/phpmyadmin/
 
 
 sudo apt-get service apache2 restart

@@ -4,6 +4,6 @@ config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/trusty/current/trus
 
   config.vm.provision :shell, path: "setup2.sh"
   config.vm.network :forwarded_port, guest: 80, host: 4567
-config.vm.synced_folder "vagrant","/var/www/", create:true
+config.vm.synced_folder "project", "/var/www/", create:true
 
 end
