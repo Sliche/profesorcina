@@ -2,23 +2,7 @@
 <html>
 <head>
 
-<<<<<<< HEAD
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min`.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-=======
-	{{--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">--}}
-	{{--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>--}}
-	{{--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>--}}
 
-
-	<link rel="stylesheet" href="/twbs/bootstrap/dist/css/bootstrap.min.css">
-	<script src="/components/jquery/jquery.min.js"></script>
-	<script src="/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-
-
-
->>>>>>> 18380cc3254fb33ab62d40cbaf9d43a1cb6e06d4
  
  </head>
 
