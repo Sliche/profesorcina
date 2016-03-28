@@ -27,7 +27,9 @@
       <li><a href="#"><img src="logo.pnglolol"></a></li>
     </ul>
 
-	<ul class="nav navbar-nav float-right">
+	<!-- <ul class="nav navbar-nav float-right"> -->
+	  <ul class="nav navbar-nav navbar-right">
+
       <li><a href="#">Pocetna</a></li>
       <li><a href="#">Ustanove</a></li>
       <li><a href="#">Kako radi APP</a></li>
