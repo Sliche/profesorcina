@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www":{"create":true,"guestpath":"/var/www","hostpath":"/Users/borislavsevcik/Desktop/posao/startup/project","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/borislavsevcik/Desktop/posao/startup","disabled":false,"__vagrantfile":true}}}
