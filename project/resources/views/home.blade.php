@@ -3,7 +3,6 @@
 @section('content')
 
 
-<h1> aoijsfoiajs</h1>
 
 
 
